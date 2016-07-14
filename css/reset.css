@@ -10,3 +10,18 @@ table {border-collapse: collapse;border-spacing: 0;}
 /* Mais usados */
 img {max-width: 100%;}
 a {text-decoration: none;}
+/* Visible */
+
+
+.hidden-sm {display:none !important;}
+
+@media (min-width:767px){
+	.hidden-md {display:none !important;}
+	.show-md {display:block !important;}
+	.show-i-md {display:inline-block !important;}
+}
+@media (min-width:940px){	
+	.hidden-lg {display:none !important;}
+	.show-lg {display:block !important;}
+	.show-i-lg {display:inline-block !important;}
+}
