@@ -1,14 +1,47 @@
 /* Heranças */
-@import url(reset.css);
 @import url(font.css);
+@import url(reset.css);
+
+/* Grid */
 
 /* Estilo principal */
 .content, .wrap {margin: 0 auto; display: block;}
 .wrap {padding: 0 20px;}
 
-.header-infoglobo ul li {display: inline-block;}
-.header-infoglobo ul li a {display: block;}
+.header-infoglobo {background: #F96332; height: 64px; padding-top: 29px; font-size: 0px;}
+.header-infoglobo ul li {display: inline-block; width: 20%;}
+.header-infoglobo ul li a {display: block; color: #fff; font-size: 25px; width:25px; height: 25px;}
+.header-infoglobo ul li:nth-child(1) a {margin-left: 12.8px;}
+.header-infoglobo ul li:nth-child(2) a, .header-infoglobo ul li:nth-child(3) a, .header-infoglobo ul li:nth-child(4) a {margin: 0 auto 0 auto; }
+.header-infoglobo ul li:nth-child(5) a {margin-right: 14px; margin-left: auto; }
 
-.main-slider-infoglobo {}
-.main-slider-content-infoglobo {}
-.main-slider-infoglobo-overlay {display: block; height: 130.1px; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );}
+.main-slider-infoglobo {position: relative; overflow: hidden; margin: 0 -20px; background: url("../imgs/ice.jpg") no-repeat 50% 50%; height: 325px; width: calc(100% + 40px); background-size: cover; }
+.main-slider-infoglobo h2 {padding: 0 20px 22px 20px; position: absolute; bottom:0px; font-weight: bold; color: #fff; line-height: 26px; font-size: 18px; }
+.main-slider-infoglobo-overlay {display: block; height: 130px; width: 100%; position: absolute; bottom: 0px; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );}
+
+.main-content-infoglobo .credits-infoglobo {clear: both;padding: 26px 0;}
+.main-content-infoglobo .credits-infoglobo li {display: inline-block; margin-right: 15px; }
+.main-content-infoglobo .credits-infoglobo li a {font-size: 10px; color: #000;}
+.main-content-infoglobo .credits-infoglobo li a span {font-size: 25px; position: relative; top: 5px; margin-right: 2px; }
+.main-content-infoglobo .credits-infoglobo li:nth-child(3) {margin-right: 0px; float: right; position: relative; font-size: 9px; top: 15px;}
+.main-content-infoglobo .credits-infoglobo li:nth-child(3):after {width: 100%; display: block; content: " "; bottom: -6px; height: 1px; background: #000; position: absolute;}
+
+.image-overlay-infoglobo {margin-bottom: 35px; position: relative; }
+.image-overlay-infoglobo img {width: 63%; box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);}
+.image-overlay-infoglobo img:nth-child(1) {right: 0px; z-index: 2; opacity: 0.9; position: absolute;}
+.image-overlay-infoglobo img:nth-child(2) {margin-top: 50px;}
+
+.main-content-infoglobo p {font-size: 13px; color: #1D1D26; line-height: 26px; padding-bottom: 35px;}
+.main-content-infoglobo blockquote {font-size: 14px; line-height: 22px; padding-left: 25px; color: #F96332; border-left: 2px solid #F96332; margin-bottom: 25px; }
+.main-content-infoglobo blockquote small {display: block; font-size: 10px; margin-top: 12px; line-height: 10px;}
+
+.main-content-infoglobo h3 {font-size: 14px; line-height: 24px; color: #1D1D26; font-weight: bold; margin-bottom: 28px;}
+
+.main-content-infoglobo .video-infoglobo {background: url("../imgs/forest.jpg") no-repeat 50% 50%; height: 250px; background-size: cover; margin: 0 -20px; width: calc(100% + 40px); overflow: hidden; margin-bottom: 26px;  }
+.main-content-infoglobo .video-infoglobo a {width: 50px; height: 50px; display: block; background: #F96332; text-indent: -9999px; border-radius: 100px; margin: 100px auto 0 auto ; position: relative; box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2); }
+.main-content-infoglobo .video-infoglobo a:after {display: block; content: " "; position: absolute; width: 0;height: 0;border-style: solid;border-width: 6.5px 0 6.5px 10px;border-color: transparent transparent transparent #fff; top: 50%; left: 50%; margin: -5px 0 0 -3px;}
+
+.footer-infoglobo {background: rgba(0, 0, 0, 0.05); text-align: center;}
+.footer-infoglobo h3 {font-size: 9px; color: rgba(0, 0, 0, 0.4); font-weight: bold; padding: 60px 0 28px 0;}
+.footer-infoglobo h4 {font-size: 18px; color: #000; font-weight: bold; line-height: 26px; }
+.footer-infoglobo .footer-infoglobo-next { font-size: 25px; color: #F96332; padding: 32px 0 60px 0; display: block; }
