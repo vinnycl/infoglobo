@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Carousel.js 3D Rotator Examples</title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<style>
+#jquery-script-menu {position: fixed; height: 90px; width: 100%; top: 0; left: 0; border-top: 5px solid #316594; background: #fff; -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16); -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16); box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16); z-index: 999999; padding: 10px 0; -webkit-box-sizing:content-box; -moz-box-sizing:content-box; box-sizing:content-box; }
+.jquery-script-center {width: 960px; margin: 0 auto; }
+.jquery-script-center ul {width: 212px; float:left; line-height:45px; margin:0; padding:0; list-style:none; }
+.jquery-script-center a {text-decoration:none; }
+.jquery-script-ads {width: 728px; height:90px; float:right; }
+.jquery-script-clear {clear:both; height:0; }
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+.clearfix {*+height: 1%; }
+.container {height: 300px; margin:30px auto; }
+.container ul li {border:1px solid #fff; }
+.left, .right {cursor: pointer; }
+	</style>
+	<script src="js/Carousel.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#container3').carousel({
+			num: 5,
+			maxWidth: 300,
+			maxHeight: 250,
+			distance: 30,
+			autoPlay: false
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<div class="container" id="container3">
+		<ul>
+			<li>
+				<img src="imgs/winter.jpg" alt="" />
+			</li>
+			<li>
+				<img src="imgs/wolf.jpg" alt="" />
+			</li>
+			<li>
+				<img src="imgs/top-view.jpg" alt="" />
+			</li>
+			<img src="imgs/left.png" class="left">
+			<img src="imgs/right.png" class="right">
+		</ul>
+	</div>
+</body>
+
+</html>

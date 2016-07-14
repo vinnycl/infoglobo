@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="47.7584135%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M21.740988,19.2077717 C21.740988,20.5723567 20.6349204,21.6785714 19.2767023,21.6785714 L19.2767023,21.6785714 C17.9157149,21.6785714 16.8124166,20.5752915 16.8124166,19.2077717 L16.8124166,2.79222828 C16.8124166,1.42764328 17.9184842,0.321428571 19.2767023,0.321428571 L19.2767023,0.321428571 C20.6376897,0.321428571 21.740988,1.42470848 21.740988,2.79222828 L21.740988,19.2077717 L21.740988,19.2077717 Z" id="path-2"></path>
+        <rect id="path-3" x="0.39305741" y="0.321428571" width="4.97463284" height="21.3571429" rx="2.48731642"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web" transform="translate(-689.000000, -19.000000)">
+            <g id="Navbar">
+                <g id="logo" transform="translate(689.000000, 19.000000)">
+                    <g id="Shape" transform="translate(19.276702, 11.000000) rotate(-180.000000) translate(-19.276702, -11.000000) ">
+                        <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Shape">
+                        <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    </g>
+                    <path d="M21.0205831,17.4977358 C21.9845659,18.4617185 21.9839204,20.0252888 21.0235151,20.9856941 L21.0235151,20.9856941 C20.0611517,21.9480575 18.5022842,21.9494894 17.5355569,20.9827621 L1.16179735,4.60900254 C0.197814618,3.64501981 0.198460136,2.08144949 1.15886535,1.12104427 L1.15886535,1.12104427 C2.12122879,0.158680838 3.68009631,0.157248945 4.64682362,1.12397626 L21.0205831,17.4977358 L21.0205831,17.4977358 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
