@@ -41,6 +41,23 @@
 .main-content-infoglobo .video-infoglobo a {width: 50px; height: 50px; display: block; background: #F96332; text-indent: -9999px; border-radius: 100px; margin: 100px auto 0 auto ; position: relative; box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2); }
 .main-content-infoglobo .video-infoglobo a:after {display: block; content: " "; position: absolute; width: 0;height: 0;border-style: solid;border-width: 6.5px 0 6.5px 10px;border-color: transparent transparent transparent #fff; top: 50%; left: 50%; margin: -7px 0 0 -5px;}
 
+.carousel-infoglobo {min-height: 400px; margin: 0 -20px; overflow: hidden;position: relative; padding-top: 20px;}
+.carousel-infoglobo ul.list-images li a img, .carousel-infoglobo ul.list-images li {display: block;}
+.carousel-infoglobo ul.list-images li a img {transition: all 0.3s ease; width: 200px; height: 166px; top: 62px; position: absolute; z-index: 1;     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);}
+.carousel-infoglobo ul.list-images li a h4, .carousel-infoglobo ul.list-images li a h5 {display: none; text-align: center;}
+.carousel-infoglobo ul.list-images li.prev a img {left: -20px;}
+.carousel-infoglobo ul.list-images li.next a img {right: -20px;}
+.carousel-infoglobo ul.list-images li.active a img {width: 300px; height: 250px; top: 0px; margin: 0 auto; position: relative; z-index: 2;}
+.carousel-infoglobo ul.list-images li.inactive a img {width: 1px; height: 1px;}
+.carousel-infoglobo ul.list-images li.active a h4, .carousel-infoglobo ul.list-images li.active a h5 {display: block;}
+.carousel-infoglobo ul.list-images li a h4 {font-size: 13px; margin: 30px 0 10px 0; font-weight: 700; color: #000;}
+.carousel-infoglobo ul.list-images li a h5 {font-size: 9px; color: rgba(0,0,0,0.4);}
+
+.carousel-infoglobo .bullet {text-align: center; margin: 40px 0 50px 0;}
+.carousel-infoglobo .bullet li {display: inline-block; margin: 0 3px;}
+.carousel-infoglobo .bullet li a {overflow: hidden; display: block; text-indent: -9999px; width: 7px; height: 7px; background: rgba(0, 0, 0, 0.2) ; border-radius: 100px;}
+.carousel-infoglobo .bullet li.active a {background: #F96332 ;}
+
 .footer-infoglobo {background: rgba(0, 0, 0, 0.05); text-align: center;}
 .footer-infoglobo h3 {font-size: 9px; color: rgba(0, 0, 0, 0.4); font-weight: 700; padding: 60px 0 28px 0;}
 .footer-infoglobo h4 {font-size: 18px; color: #000; font-weight: 700; line-height: 26px; }
@@ -73,7 +90,16 @@
 	.main-content-infoglobo h3 {font-size: 26px; line-height: 40px;}
 	.main-content-infoglobo .video-infoglobo {width: calc(100% + 80px); margin: 0 -40px; height: 450px; margin-bottom: 44px;}
 	.main-content-infoglobo .video-infoglobo a {width: 80px; height: 80px; margin-top: 190px;}
-	.main-content-infoglobo .video-infoglobo a:after {    border-width: 9px 0 9px 16px;}
+	.main-content-infoglobo .video-infoglobo a:after {border-width: 9px 0 9px 16px;}
+	
+	.carousel-infoglobo {margin: 0 -40px;}
+	.carousel-infoglobo ul.list-images li a img {width: 400px; height: 300px;top: 90px;}
+	.carousel-infoglobo ul.list-images li.active a img {width: 600px; height: 450px;}
+	.carousel-infoglobo ul.list-images li.prev a img {left: -40px;}
+	.carousel-infoglobo ul.list-images li.next a img {right: -40px;}
+	.carousel-infoglobo ul.list-images li a h4 {font-size: 14px;}
+	.carousel-infoglobo ul.list-images li a h5 {font-size: 11px;}
+
 	.footer-infoglobo h4 {display: none;}
 
 	.footer-infoglobo h3 {display: inline-block; font-size: 11px; padding: 45px 0; font-weight: 700;}
@@ -129,6 +155,17 @@
 	.footer-lg-infoglobo li a {color: #000; font-size: 10px; font-weight: 700; color: rgba(0, 0, 0, 0.3); height: 20px; }
 	.footer-lg-infoglobo li:last-child a {font-weight: normal;}
 	.footer-lg-infoglobo li:nth-child(4) a, .footer-lg-infoglobo li:nth-child(5) a, .footer-lg-infoglobo li:nth-child(6) a {font-size: 20px;}
+
+	.carousel-infoglobo {margin: 0;overflow: visible;}
+	.carousel-infoglobo ul.list-images li a img {width: 500px; height: 320px;top: 90px;}
+	.carousel-infoglobo ul.list-images li.active a img {width: 780px; height: 500px;}
+	.carousel-infoglobo ul.list-images li.prev a img {left: -140px;}
+	.carousel-infoglobo ul.list-images li.next a img {right: -140px;}
+	.carousel-infoglobo ul.list-images li a h4 {font-size: 24px;}
+	.carousel-infoglobo ul.list-images li a h5 {font-size: 13px;}
+	.carousel-infoglobo .controller {position: absolute; z-index: 5; bottom: 120px; width: 100%; }
+	.carousel-infoglobo .controller span {color: #F96332; font-size: 25px;}
+	.carousel-infoglobo .controller .next {float: right;}
 
 	.comments-infoglobo {margin: 100px 0; }
 	.comments-infoglobo .comment-title-infoglobo {background: #F96332; padding: 75px 0;}
