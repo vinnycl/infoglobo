@@ -53,7 +53,7 @@
 	.header-infoglobo ul li:nth-child(1) {margin-left: 0px;}
 	.header-infoglobo ul li:nth-child(9) {margin-right: 0px;}
 	.header-infoglobo ul li:nth-child(8) {width:  calc(100% - 400px);}
-	.header-infoglobo ul li:nth-child(8) a { margin: 0 auto; background: url("../imgs/logo.png") no-repeat 50% 0px; text-indent: -99999999px; display: block; width: auto; overflow: hidden; }
+	.header-infoglobo ul li:nth-child(8) a { margin: 0 auto; background: url("../imgs/logo.svg") no-repeat 50% 0px; text-indent: -99999999px; display: block; width: auto; overflow: hidden; }
 	.header-infoglobo ul li:nth-child(11) img {border-radius: 100px;}
 
 	.main-slider-infoglobo { margin: 0 -40px; width: calc(100% + 80px); height: 430px;}
@@ -67,7 +67,7 @@
 	.image-overlay-infoglobo img:nth-child(1) {opacity: 1; width: 85%; margin-top: 40%; height: 340px;}
 	.image-overlay-infoglobo img:nth-child(2) {margin-top: 0px;margin-bottom: 45%; width: 59%; height: 320px;}
 
-	.main-content-infoglobo blockquote {position: absolute; top: 30px; right: 0px; width: 50%; border: 4px solid #F96332; padding: 60px; z-index: 3;font-size: 15px; line-height: 26px;}
+	.main-content-infoglobo blockquote {position: absolute; top: 30px; right: 0px; width: 50%; border: 4px solid #F96332; padding: 60px 50px; z-index: 3;font-size: 15px; line-height: 26px;}
 	.main-content-infoglobo blockquote small {font-weight: 700; font-size: 11px;}
 
 	.main-content-infoglobo h3 {font-size: 26px; line-height: 40px;}
@@ -109,9 +109,7 @@
 
 	.image-overlay-infoglobo {height: 767px;}
 	.image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2), .main-content-infoglobo blockquote {margin: 0px; position: absolute;}
-	 {margin: 0px; z-index: 3; position: absolute;}
-
-	 .image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2) {width: 790px; height: 500px; top: 0px; }
+	.image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2) {width: 790px; height: 500px; top: 0px; }
 	.main-content-infoglobo blockquote {z-index: 3;width: 430px; height: 370px; top: 450px; left: 0px;padding-top: 80px;padding-right: 80px; font-size: 18px; line-height: 2;}
 	.main-content-infoglobo blockquote small {margin-top: 40px; font-size: 18px;}
 	.image-overlay-infoglobo img:nth-child(1) {z-index: 1; top: 157px; right: -220px;}
