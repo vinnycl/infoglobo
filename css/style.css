@@ -9,7 +9,7 @@
 .wrap {padding: 0 20px;}
 
 .header-infoglobo {background: #F96332; height: 64px; padding-top: 29px; font-size: 0px;}
-.header-infoglobo ul li {display: inline-block; width: 20%;}
+.header-infoglobo ul li {display: inline-block; width: 20%; position: relative; z-index: 2;}
 .header-infoglobo ul li a {display: block; color: #fff; font-size: 25px; width:25px; height: 25px;}
 .header-infoglobo ul li:nth-child(1) a {margin-left: 12.8px;}
 .header-infoglobo ul li:nth-child(2) a, .header-infoglobo ul li:nth-child(3) a, .header-infoglobo ul li:nth-child(4) a {margin: 0 auto 0 auto; }
@@ -39,7 +39,7 @@
 
 .main-content-infoglobo .video-infoglobo {background: url("../imgs/forest.jpg") no-repeat 50% 50%; height: 250px; background-size: cover; margin: 0 -20px; width: calc(100% + 40px); overflow: hidden; margin-bottom: 26px;  }
 .main-content-infoglobo .video-infoglobo a {width: 50px; height: 50px; display: block; background: #F96332; text-indent: -9999px; border-radius: 100px; margin: 100px auto 0 auto ; position: relative; box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2); }
-.main-content-infoglobo .video-infoglobo a:after {display: block; content: " "; position: absolute; width: 0;height: 0;border-style: solid;border-width: 6.5px 0 6.5px 10px;border-color: transparent transparent transparent #fff; top: 50%; left: 50%; margin: -5px 0 0 -3px;}
+.main-content-infoglobo .video-infoglobo a:after {display: block; content: " "; position: absolute; width: 0;height: 0;border-style: solid;border-width: 6.5px 0 6.5px 10px;border-color: transparent transparent transparent #fff; top: 50%; left: 50%; margin: -7px 0 0 -5px;}
 
 .footer-infoglobo {background: rgba(0, 0, 0, 0.05); text-align: center;}
 .footer-infoglobo h3 {font-size: 9px; color: rgba(0, 0, 0, 0.4); font-weight: 700; padding: 60px 0 28px 0;}
@@ -53,11 +53,12 @@
 	.header-infoglobo ul li:nth-child(1) {margin-left: 0px;}
 	.header-infoglobo ul li:nth-child(9) {margin-right: 0px;}
 	.header-infoglobo ul li:nth-child(8) {width:  calc(100% - 400px);}
-	.header-infoglobo ul li:nth-child(8) a { margin: 0 auto; background: url("../imgs/logo.png") no-repeat 50% 0px; text-indent: -99999999px; }
+	.header-infoglobo ul li:nth-child(8) a { margin: 0 auto; background: url("../imgs/logo.png") no-repeat 50% 0px; text-indent: -99999999px; display: block; width: auto; overflow: hidden; }
 	.header-infoglobo ul li:nth-child(11) img {border-radius: 100px;}
 
 	.main-slider-infoglobo { margin: 0 -40px; width: calc(100% + 80px); height: 430px;}
 	.main-slider-infoglobo h2 {padding: 0 40px 31px 40px;line-height: 46px; font-size: 36px;}
+	.main-slider-infoglobo-overlay {height: 260px;}
 
 	.main-content-infoglobo p {font-size: 13px; line-height: 28px;padding-bottom: 56px;}
 	.main-content-infoglobo p.intro {font-size: 15px; line-height: 30px;padding-bottom: 45px;}
@@ -89,13 +90,35 @@
 	.header-infoglobo ul li:nth-child(7) a {width: 34px; font-size: 10px; position: relative; top: 7px; text-transform: uppercase; font-weight: 700; margin: 0 0 0 50px;}
 	.header-infoglobo ul li:nth-child(8) { width: calc(100% - 360px);}
 	.header-infoglobo ul li:last-child {margin-right: 0px; }
-	.main-slider-infoglobo {width: 100%; margin: 0;}
+	.main-slider-infoglobo {width: 100%; margin: 0; height: 600px;}
 	.main-content-infoglobo .video-infoglobo {width: 100%; margin: 0;}
 	.main-slider-infoglobo h2 { padding: 0 0 60px 0; width: 770px; display: inline-block; font-size: 46px; line-height: 56px;}
-	.slide-link-infoglobo {width: 170px; position: relative; top: 330px; left: 780px;}
+	.slide-link-infoglobo {width: 175px; position: relative; top: 500px; left: 780px;}
 	.slide-link-infoglobo li {display: inline-block;}
-	.slide-link-infoglobo li a {padding: 10px; font-size: 20px; color: #fff; background: #F96332 ; border-radius: 100px; margin-left:10px; }
+	.slide-link-infoglobo li a {padding: 8px 10px ; font-size: 20px; color: #fff; background: #F96332 ; border-radius: 100px; margin-left:10px; }
+	.main-infoglobo {overflow: hidden;}
+	.main-content-infoglobo .credits-infoglobo {padding: 56px 0;}
+	.main-content-infoglobo p {font-size: 14px; line-height: 32px; position: relative; padding-bottom: 152px; }
+	.main-content-infoglobo p.intro {font-size: 20px; line-height: 40px; padding-bottom: 152px; width: auto;}
+	.main-content-infoglobo .break-title {width: 460px; position: relative; margin-left: 480px;}
+	.main-content-infoglobo .break-title p:nth-child(2) {padding-bottom: 30px;}
+	.main-content-infoglobo .break-title .video-infoglobo {position: absolute;width: 610px; height: 500px; right: 0; margin-right: 560px; top: 182px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);}
+	.main-content-infoglobo p.intro:after, .main-content-infoglobo .break-title p:last-child:after {content: " "; display: block; position: absolute; width: 20px; height: 2px; background: #F96332; bottom: 80px; left: 50%; margin-left: -10px;}
 
+	.main-content-infoglobo .break-title p:last-child:after {left: -20px;}
+
+	.image-overlay-infoglobo {height: 767px;}
+	.image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2), .main-content-infoglobo blockquote {margin: 0px; position: absolute;}
+	 {margin: 0px; z-index: 3; position: absolute;}
+
+	 .image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2) {width: 790px; height: 500px; top: 0px; }
+	.main-content-infoglobo blockquote {z-index: 3;width: 430px; height: 370px; top: 450px; left: 0px;padding-top: 80px;padding-right: 80px; font-size: 18px; line-height: 2;}
+	.main-content-infoglobo blockquote small {margin-top: 40px; font-size: 18px;}
+	.image-overlay-infoglobo img:nth-child(1) {z-index: 1; top: 157px; right: -220px;}
+	.image-overlay-infoglobo img:nth-child(2) {z-index: 2; left: -220px;}
+	.image-overlay-infoglobo {margin-bottom: 0px;}
+
+	.main-content-infoglobo h3 {font-size: 30px; line-height: 44px; margin-bottom: 40px;}
 
 
 	.footer-lg-infoglobo {text-align: left; padding: 43px 0;}
@@ -122,12 +145,12 @@
 	.comments-infoglobo .list-comment-infoglobo .info-post-infoglobo span {font-size: 25px; position: relative; top: 7px; }
 	.comments-infoglobo .list-comment-infoglobo p, .comments-infoglobo .list-comment-infoglobo h4 {font-size: 14px; line-height: 24px;}
 	.comments-infoglobo .list-comment-infoglobo h4 {margin-bottom: 12px; font-weight: 700; line-height: 14px;}
-	.comments-infoglobo .list-comment-infoglobo h5 {text-align: center; padding: 60px 0 70px 0; color: rgba(0, 0, 0, 0.2);}
+	.comments-infoglobo .list-comment-infoglobo h5 {text-align: center; padding: 60px 0 70px 0; color: rgba(0, 0, 0, 0.2); font-size: 12px;}
 	.comments-infoglobo .list-comment-infoglobo  li img, .comments-infoglobo .list-comment-infoglobo .form-comment-infoglobo img {width: 55px; height: 55px; border-radius: 100px; float: left; margin-right: 35px;}
 	.comments-infoglobo .list-comment-infoglobo .attachment-submit {clear: both; overflow:hidden;}
 	.comments-infoglobo .list-comment-infoglobo .attachment-submit {padding: 12px 46px 18px 46px ; border-radius: 100px; background: #F96332; color: #fff; font-size: 13px; float: right;  position: relative; top: -55px; line-height: 13px;}
 	.comments-infoglobo .list-comment-infoglobo .attachment-submit span {font-size: 25px; position: relative; top: 5px; margin-right: 11px;}
 	.comments-infoglobo .list-comment-infoglobo .form-comment-infoglobo {position: relative;}
-	.comments-infoglobo .list-comment-infoglobo .form-comment-infoglobo textarea {font-family: 'Montserrat', sans-serif; font-size: 14px; width: 640px; height: 55px; border-radius: 100px; border: 1px solid #F96332; padding: 17px 0 17px 60px;}
+	.comments-infoglobo .list-comment-infoglobo .form-comment-infoglobo textarea {outline: none; resize: none; font-family: 'Montserrat', sans-serif; font-size: 14px; width: 640px; height: 55px; border-radius: 100px; border: 1px solid #F96332; padding: 17px 0 17px 60px;}
 	.icon-Attachment {position: absolute; top: 15px; left: 110px; font-size: 25px; color: rgba(0, 0, 0, 0.5); }
 }
