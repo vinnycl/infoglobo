@@ -2,45 +2,35 @@
 @import url(font.css);
 @import url(reset.css);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/* Grid */
-
 /* Estilo principal */
 .content, .wrap {margin: 0 auto; display: block;}
 .wrap {padding: 0 20px;}
-
 .header-infoglobo {background: #F96332; height: 64px; padding-top: 29px; font-size: 0px;}
 .header-infoglobo ul li {display: inline-block; width: 20%; position: relative; z-index: 2;}
 .header-infoglobo ul li a {display: block; color: #fff; font-size: 25px; width:25px; height: 25px;}
 .header-infoglobo ul li:nth-child(1) a {margin-left: 12.8px;}
 .header-infoglobo ul li:nth-child(2) a, .header-infoglobo ul li:nth-child(3) a, .header-infoglobo ul li:nth-child(4) a {margin: 0 auto 0 auto; }
 .header-infoglobo ul li:nth-child(5) a {margin-right: 14px; margin-left: auto; }
-
 .main-slider-infoglobo {position: relative; overflow: hidden; margin: 0 -20px; background: url("../imgs/ice.jpg") no-repeat 50% 50%; height: 325px; width: calc(100% + 40px); background-size: cover; }
 .main-slider-infoglobo h2 {padding: 0 20px 22px 20px; position: absolute; bottom:0px; font-weight: 700; color: #fff; line-height: 26px; font-size: 18px; }
 .main-slider-infoglobo-overlay {display: block; height: 130px; width: 100%; position: absolute; bottom: 0px; background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );}
-
 .main-content-infoglobo .credits-infoglobo {clear: both;padding: 26px 0;}
 .main-content-infoglobo .credits-infoglobo li {display: inline-block; margin-right: 15px; }
 .main-content-infoglobo .credits-infoglobo li a {font-size: 10px; color: #000;}
 .main-content-infoglobo .credits-infoglobo li a span {font-size: 25px; position: relative; top: 5px; margin-right: 2px; }
 .main-content-infoglobo .credits-infoglobo li:nth-child(3) {margin-right: 0px; float: right; position: relative; font-size: 9px; top: 15px;}
 .main-content-infoglobo .credits-infoglobo li:nth-child(3):after {width: 100%; display: block; content: " "; bottom: -6px; height: 1px; background: #000; position: absolute;}
-
 .image-overlay-infoglobo {margin-bottom: 35px; position: relative; }
 .image-overlay-infoglobo img {width: 63%; box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);}
 .image-overlay-infoglobo img:nth-child(1) {right: 0px; z-index: 2; opacity: 0.9; position: absolute;}
 .image-overlay-infoglobo img:nth-child(2) {margin-top: 16%;}
-
 .main-content-infoglobo p {font-size: 13px; color: #1D1D26; line-height: 26px; padding-bottom: 35px;}
 .main-content-infoglobo blockquote {font-size: 14px; line-height: 22px; padding-left: 25px; color: #F96332; border-left: 2px solid #F96332; margin-bottom: 25px; }
 .main-content-infoglobo blockquote small {display: block; font-size: 10px; margin-top: 12px; line-height: 10px;}
-
 .main-content-infoglobo h3 {font-size: 14px; line-height: 24px; color: #1D1D26; font-weight: 700; margin-bottom: 28px;}
-
 .main-content-infoglobo .video-infoglobo {background: url("../imgs/forest.jpg") no-repeat 50% 50%; height: 250px; background-size: cover; margin: 0 -20px; width: calc(100% + 40px); overflow: hidden; margin-bottom: 26px;  }
 .main-content-infoglobo .video-infoglobo a {width: 50px; height: 50px; display: block; background: #F96332; text-indent: -9999px; border-radius: 100px; margin: 100px auto 0 auto ; position: relative; box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2); }
 .main-content-infoglobo .video-infoglobo a:after {display: block; content: " "; position: absolute; width: 0;height: 0;border-style: solid;border-width: 6.5px 0 6.5px 10px;border-color: transparent transparent transparent #fff; top: 50%; left: 50%; margin: -7px 0 0 -5px;}
-
 .carousel-infoglobo {min-height: 400px; margin: 0 -20px; overflow: hidden;position: relative; padding-top: 20px;}
 .carousel-infoglobo ul.list-images li a img, .carousel-infoglobo ul.list-images li {display: block;}
 .carousel-infoglobo ul.list-images li a img {transition: all 0.3s ease; width: 200px; height: 166px; top: 62px; position: absolute; z-index: 1;     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);}
@@ -52,46 +42,36 @@
 .carousel-infoglobo ul.list-images li.active a h4, .carousel-infoglobo ul.list-images li.active a h5 {display: block;}
 .carousel-infoglobo ul.list-images li a h4 {font-size: 13px; margin: 30px 0 10px 0; font-weight: 700; color: #000;}
 .carousel-infoglobo ul.list-images li a h5 {font-size: 9px; color: rgba(0,0,0,0.4);}
-
 .carousel-infoglobo .bullet {text-align: center; margin: 40px 0 50px 0;}
 .carousel-infoglobo .bullet li {display: inline-block; margin: 0 3px;}
 .carousel-infoglobo .bullet li a {overflow: hidden; display: block; text-indent: -9999px; width: 7px; height: 7px; background: rgba(0, 0, 0, 0.2) ; border-radius: 100px;}
 .carousel-infoglobo .bullet li.active a {background: #F96332 ;}
-
 .footer-infoglobo {background: rgba(0, 0, 0, 0.05); text-align: center;}
 .footer-infoglobo h3 {font-size: 9px; color: rgba(0, 0, 0, 0.4); font-weight: 700; padding: 60px 0 28px 0;}
 .footer-infoglobo h4 {font-size: 18px; color: #000; font-weight: 700; line-height: 26px; }
 .footer-infoglobo .footer-infoglobo-next { font-size: 25px; color: #F96332; padding: 32px 0 60px 0; display: block; }
-
 @media (min-width:767px){
 	.wrap {padding: 0 40px;}
-
 	.header-infoglobo ul li {width: 25px; margin: 0 15px;}
 	.header-infoglobo ul li:nth-child(1) {margin-left: 0px;}
 	.header-infoglobo ul li:nth-child(9) {margin-right: 0px;}
 	.header-infoglobo ul li:nth-child(8) {width:  calc(100% - 400px);}
 	.header-infoglobo ul li:nth-child(8) a { margin: 0 auto; background: url("../imgs/logo.svg") no-repeat 50% 0px; text-indent: -99999999px; display: block; width: auto; overflow: hidden; }
 	.header-infoglobo ul li:nth-child(11) img {border-radius: 100px;}
-
 	.main-slider-infoglobo { margin: 0 -40px; width: calc(100% + 80px); height: 430px;}
 	.main-slider-infoglobo h2 {padding: 0 40px 31px 40px;line-height: 46px; font-size: 36px;}
 	.main-slider-infoglobo-overlay {height: 260px;}
-
 	.main-content-infoglobo p {font-size: 13px; line-height: 28px;padding-bottom: 56px;}
 	.main-content-infoglobo p.intro {font-size: 15px; line-height: 30px;padding-bottom: 45px;}
-
 	.overlay-blockquote-infoglobo {position: relative;}
 	.image-overlay-infoglobo img:nth-child(1) {opacity: 1; width: 85%; margin-top: 40%; height: 340px;}
 	.image-overlay-infoglobo img:nth-child(2) {margin-top: 0px;margin-bottom: 45%; width: 59%; height: 320px;}
-
 	.main-content-infoglobo blockquote {position: absolute; top: 30px; right: 0px; width: 50%; border: 4px solid #F96332; padding: 60px 50px; z-index: 3;font-size: 15px; line-height: 26px;}
 	.main-content-infoglobo blockquote small {font-weight: 700; font-size: 11px;}
-
 	.main-content-infoglobo h3 {font-size: 26px; line-height: 40px;}
 	.main-content-infoglobo .video-infoglobo {width: calc(100% + 80px); margin: 0 -40px; height: 450px; margin-bottom: 44px;}
 	.main-content-infoglobo .video-infoglobo a {width: 80px; height: 80px; margin-top: 190px;}
 	.main-content-infoglobo .video-infoglobo a:after {border-width: 9px 0 9px 16px;}
-	
 	.carousel-infoglobo {margin: 0 -40px;}
 	.carousel-infoglobo ul.list-images li a img {width: 400px; height: 300px;top: 90px;}
 	.carousel-infoglobo ul.list-images li.active a img {width: 600px; height: 450px;}
@@ -99,9 +79,7 @@
 	.carousel-infoglobo ul.list-images li.next a img {right: -40px;}
 	.carousel-infoglobo ul.list-images li a h4 {font-size: 14px;}
 	.carousel-infoglobo ul.list-images li a h5 {font-size: 11px;}
-
 	.footer-infoglobo h4 {display: none;}
-
 	.footer-infoglobo h3 {display: inline-block; font-size: 11px; padding: 45px 0; font-weight: 700;}
 	.footer-infoglobo .footer-infoglobo-next {display: inline-block; padding: 0px; margin-left: 20px; position: relative; top: 5px;}
 }
@@ -109,7 +87,6 @@
 @media (min-width:940px){
 	.wrap {padding: 0px;}
 	.content {width: 940px; margin: 0 auto;}
-
 	.header-infoglobo {height: 60px; padding-top: 19px;}
 	.header-infoglobo ul li:nth-child(6) {margin: 0px; }
 	.header-infoglobo ul li:nth-child(7) {width: auto; vertical-align: top; height: 20px;}
@@ -130,9 +107,7 @@
 	.main-content-infoglobo .break-title p:nth-child(2) {padding-bottom: 30px;}
 	.main-content-infoglobo .break-title .video-infoglobo {position: absolute;width: 610px; height: 500px; right: 0; margin-right: 560px; top: 182px; box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);}
 	.main-content-infoglobo p.intro:after, .main-content-infoglobo .break-title p:last-child:after {content: " "; display: block; position: absolute; width: 20px; height: 2px; background: #F96332; bottom: 80px; left: 50%; margin-left: -10px;}
-
 	.main-content-infoglobo .break-title p:last-child:after {left: -20px;}
-
 	.image-overlay-infoglobo {height: 767px;}
 	.image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2), .main-content-infoglobo blockquote {margin: 0px; position: absolute;}
 	.image-overlay-infoglobo img:nth-child(1), .image-overlay-infoglobo img:nth-child(2) {width: 790px; height: 500px; top: 0px; }
@@ -141,10 +116,7 @@
 	.image-overlay-infoglobo img:nth-child(1) {z-index: 1; top: 157px; right: -220px;}
 	.image-overlay-infoglobo img:nth-child(2) {z-index: 2; left: -220px;}
 	.image-overlay-infoglobo {margin-bottom: 0px;}
-
 	.main-content-infoglobo h3 {font-size: 30px; line-height: 44px; margin-bottom: 40px;}
-
-
 	.footer-lg-infoglobo {text-align: left; padding: 43px 0;}
 	.footer-lg-infoglobo li {display: inline-block; margin: 0 20px;}
 	.footer-lg-infoglobo li:first-child {margin-left: 0px;}
@@ -155,7 +127,6 @@
 	.footer-lg-infoglobo li a {color: #000; font-size: 10px; font-weight: 700; color: rgba(0, 0, 0, 0.3); height: 20px; }
 	.footer-lg-infoglobo li:last-child a {font-weight: normal;}
 	.footer-lg-infoglobo li:nth-child(4) a, .footer-lg-infoglobo li:nth-child(5) a, .footer-lg-infoglobo li:nth-child(6) a {font-size: 20px;}
-
 	.carousel-infoglobo {margin: 0;overflow: visible;}
 	.carousel-infoglobo ul.list-images li a img {width: 500px; height: 320px;top: 90px;}
 	.carousel-infoglobo ul.list-images li.active a img {width: 780px; height: 500px;}
@@ -166,7 +137,6 @@
 	.carousel-infoglobo .controller {position: absolute; z-index: 5; bottom: 120px; width: 100%; }
 	.carousel-infoglobo .controller span {color: #F96332; font-size: 25px;}
 	.carousel-infoglobo .controller .next {float: right;}
-
 	.comments-infoglobo {margin: 100px 0; }
 	.comments-infoglobo .comment-title-infoglobo {background: #F96332; padding: 75px 0;}
 	.comments-infoglobo .comment-title-infoglobo h3 {display: inline-block; font-weight: 700; color: #fff; font-size: 40px; }
